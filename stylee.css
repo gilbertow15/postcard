@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.postcard{
+    background-color:white;
+    height: 300px;
+    width: 370px;
+    padding: 10px;
+    
+}
+
+.cabezera{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    height:80px ;
+}
+.texto{
+    display: flex;
+    justify-content: space-between; 
+    width: 340px;
+    height: 170px;
+    text-align: justify;
+}
+
+.contenedores{ 
+    margin-top: 14px ;
+    margin-left: 14px;
+    
+    
+
+}
+.escrito{
+    display: flex;
+    width: 260px;
+    height: 220px;
+    float: inline-start;
+    
+}
+ .bajo{
+    justify-content: end;
+    
+ }
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 110px; 
+
+}
+
+.name{
+    display: flex;
+    border: 1px;
+    width: 120px;
+    margin-left: 25px;   
+}
+
+.enviar{
+   
+}
+
+
+
+
+
+
